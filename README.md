@@ -1,33 +1,38 @@
-This repository contains a C-based emulation of Solana's Proof of History component, designed to demonstrate the core functionalities of the POH algorithm as implemented in Solana's blockchain.
+# Solana Proof of History (POH) Emulation
 
-Quick Installation and Running Instructions
-To download and run the POH emulation, follow these steps:
+This repository contains a C-based emulation of Solana's Proof of History component, tailored to demonstrate the core functionalities of the POH algorithm as implemented in Solana's blockchain.
 
-Prerequisites
-GCC compiler
-Git
-Make
-Installation
-Clone the Repository:
+## Prerequisites
 
-bash
-Copy code
-git clone git@github.com:yourusername/solana_poh_emulation.git
-cd solana_poh_emulation
-Build the Project:
+Before you begin, ensure you have the following tools installed on your system:
+- GCC compiler
+- Git
+- Make
 
-bash
-Copy code
-make
-Run the Simulation:
+## Installation
 
-bash
-Copy code
-./main
-Current Limitations
-This emulation is a simplified version and does not encompass all aspects of the original Solana POH implementation in Rust. The key differences and limitations include:
+Follow these steps to get the project set up on your local machine:
 
-Memory Management: The current implementation does not fully handle memory deallocation, which can lead to memory leaks.
-Incomplete Functionality:
-The simulation does not include all POH-related features such as more complex consensus mechanisms and complete networking functionality.
-Certain cryptographic aspects of POH are simplified or omitted.
+1. **Clone the Repository:**
+   ```bash
+   git clone git@github.com:yourusername/solana_poh_emulation.git
+   cd solana_poh_emulation
+
+2. **Building the Project:**
+   Compile the project using Make:
+   ```bash
+   make
+
+3. **Running the Project:**
+   Once the project is built, you can run the simulation with:
+   ```bash
+   ./main
+
+## Current Limitations
+This emulation simplifies or omits certain aspects of the original Solana POH implementation in Rust. Key limitations include:
+
+### Memory Management:
+Memory deallocation is not fully handled, which might lead to memory leaks.
+
+### Simplified Functionality:
+Not all features of the original POH module are implemented. This includes complex consensus mechanisms, complete cryptographic functions and networking capabilities integral to Solana's functionality.
