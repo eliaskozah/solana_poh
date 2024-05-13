@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "leader_bank_notifier.h": "c",
+        "bank.h": "c",
+        "poh_recorder.h": "c",
+        "stdlib.h": "c",
+        "poh_service.h": "c",
+        "stdio.h": "c"
+    }
+}
